@@ -157,7 +157,9 @@ function update() {
     context.fillText(score, 252, 45);
 
     if (gameOver) {
-        context.fillText("GAME OVER", 5, 90);
+        context.fillStyle = "red";
+        context.fillText("Happy Birthday", 5, 90);
+        context.fillText("Bob ♡", 5, 135);
     }
 }
 
